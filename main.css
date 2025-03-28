@@ -136,7 +136,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: #ff7188;
+  background: #fc8296;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -315,7 +315,7 @@ Navbar
   transition: var(--transition);
 }
 .nav-link:hover {
-  color: #fe5d78;
+  color: #fc8296;
 }
 
 .contact-link a {
@@ -383,7 +383,7 @@ Footer
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ff7188;
+  background: #fc8296 ;
   color: var(--white);
 }
 .page-footer h5 {
@@ -460,7 +460,7 @@ Recipes
 .tags-container h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #fe5d78;
+  color: #fc8296;
 }
 .tags-list {
   display: grid;
@@ -473,7 +473,7 @@ Recipes
   transition: var(--transition);
 }
 .tags-list a:hover {
-  color: var(--primary-500);
+  color: #fc8296;
 }
 .recipe {
   display: block;
@@ -487,7 +487,7 @@ Recipes
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: #fe5d78;
+  color: #fc8296;
 }
 .recipe p {
   margin-bottom: 0;
@@ -658,7 +658,7 @@ Recipe Template
   border-radius: var(--borderRadius);
 }
 .recipe-info h2{
-  color: #fe5d78;
+  color: #fc8296;
 }
 .recipe-info p {
   color: var(--grey-600);
@@ -672,7 +672,7 @@ Recipe Template
 }
 .recipe-icons i {
   font-size: 1.5rem;
-  color: #fe5d78;
+  color: #fc8296;
 }
 .recipe-icons h5,
 .recipe-icons p {
@@ -724,7 +724,7 @@ Recipe Template
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
-  color: #fe5d78;
+  color: #fc8296;
   margin-bottom: 0;
 }
 .single-instruction > p {
