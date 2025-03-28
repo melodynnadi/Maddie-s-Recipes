@@ -136,7 +136,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: #fe647e;
+  background: #ff7188;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -291,6 +291,7 @@ Navbar
   font-size: 1.25rem;
 }
 .nav-links {
+  margin-left: 200px;
   height: 0;
   overflow: hidden;
   display: flex;
@@ -382,7 +383,7 @@ Footer
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fe5d78;
+  background: #ff7188;
   color: var(--white);
 }
 .page-footer h5 {
