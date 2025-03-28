@@ -136,7 +136,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: #fe647e;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -147,7 +147,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: #fe3254;
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -277,6 +277,7 @@ Navbar
 }
 .nav-header img {
   width: 200px;
+  margin-left: -20px;
 }
 .nav-logo {
   display: flex;
@@ -295,6 +296,7 @@ Navbar
   display: flex;
   flex-direction: column;
   transition: var(--transition);
+  text-align: center;
 }
 .show-links {
   height: 23.9375rem;
@@ -312,7 +314,7 @@ Navbar
   transition: var(--transition);
 }
 .nav-link:hover {
-  color: var(--primary-500);
+  color: #fe5d78;
 }
 
 .contact-link a {
@@ -380,7 +382,7 @@ Footer
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--black);
+  background: #fe5d78;
   color: var(--white);
 }
 .page-footer h5 {
@@ -404,7 +406,7 @@ Hero
   height: 40vh;
   position: relative;
   margin-bottom: 2rem;
-  background: url('main.jpeg') center/cover no-repeat;
+  background: url('pinkwallpaper.jpg') center/cover no-repeat;
   border-radius: var(--borderRadius);
 }
 .hero-container {
@@ -457,6 +459,7 @@ Recipes
 .tags-container h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
+  color: #fe5d78;
 }
 .tags-list {
   display: grid;
@@ -483,7 +486,7 @@ Recipes
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: var(--grey-700);
+  color: #fe5d78;
 }
 .recipe p {
   margin-bottom: 0;
@@ -653,19 +656,22 @@ Recipe Template
   height: 300px;
   border-radius: var(--borderRadius);
 }
+.recipe-info h2{
+  color: #fe5d78;
+}
 .recipe-info p {
   color: var(--grey-600);
 }
 .recipe-icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 2rem 0;
-  text-align: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+
 }
 .recipe-icons i {
   font-size: 1.5rem;
-  color: var(--primary-500);
+  color: #fe5d78;
 }
 .recipe-icons h5,
 .recipe-icons p {
@@ -712,11 +718,12 @@ Recipe Template
   grid-template-columns: auto 1fr;
   gap: 1.5rem;
   align-items: center;
+
 }
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--primary-500);
+  color: #fe5d78;
   margin-bottom: 0;
 }
 .single-instruction > p {
@@ -741,6 +748,6 @@ Recipe Template
 .single-tool {
   border-bottom: 2px solid var(--grey-300);
   padding-bottom: 0.75rem;
-  color: var(--primary-500);
+  color: var(--grey-700);
   text-transform: capitalize;
 }
