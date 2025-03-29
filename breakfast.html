@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About || Final</title>
+    <title>Recipes || Final</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- normalize -->
@@ -31,7 +31,7 @@
         </div>
         <div class="nav-links">
           <a href="index.html" class="nav-link"> home </a>
-          <a href="about.html" class="nav-link active"> about </a>
+          <a href="about.html" class="nav-link"> about </a>
           <a href="tags.html" class="nav-link"> tags </a>
           <a href="recipes.html" class="nav-link"> recipes </a>
 
@@ -42,31 +42,61 @@
       </div>
     </nav>
     <!-- end of nav -->
+    <!-- main -->
     <main class="page">
-      <section class="about-page">
-        <article>
-          <h2>About Maddie's Recipes</h2>
-          <p>
-            Welcome to Maddie's Recipes — a space where cooking becomes simple, fun, and rewarding! This website was born out of a unique story and a desire to share the joy of homemade meals with everyone, no matter their skill level in the kitchen.
-          </p>
-          <p>
-            What You’ll Find Here<br>
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>maddie's recipes</h1>
+            <h4>cooking skills not required (clearly).</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
 
-            <u>Simple Recipes:</u> From quick weeknight dinners to indulgent desserts, every recipe is designed to be approachable and delicious.<br>
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>breakfast</h4>
+          <div class="tags-list">
+            <a href="pancake.html">Pancakes</a>
+            <a href="omelette.html">Omelette</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
 
-            <u>Step-by-Step Guides:</u> Perfect for those who are new to cooking or want to refine their skills.<br>
-          </p>
-          <a href="contact.html" class="btn"> contact </a>
-        </article>
-        <!-- needs fixes -->
-        <img
-          src="Madison.jpg"
-          alt="Person Pouring Salt in Bowl"
-          class="img about-img"
-        />
+          <!-- single recipe -->
+          <a href="pancake.html" class="recipe">
+            <img
+              src="recipe-4.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Pancakes</h5>
+            <p>Prep : 10min | Cook : 25min</p>
+          </a>
+          <!-- end of single recipe -->
+
+          <a href="omelette.html" class="recipe">
+            <img
+              src="omelette.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>omelette</h5>
+            <p>Prep : 5min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+
+          
+        </div>
+        <!-- end of recipes list -->
       </section>
-      
     </main>
+    <!-- end of main -->
     <!-- footer -->
     <footer class="page-footer">
       <p>Made by Melody Nnadi</p>

@@ -17,3 +17,10 @@ navBtnDOM.addEventListener('click', () => {
 const date = getElement('#date')
 const currentYear = new Date().getFullYear()
 date.textContent = currentYear
+
+
+document.querySelectorAll('.nav-link').forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
